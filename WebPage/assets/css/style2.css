@@ -73,3 +73,9 @@ select.form-control {
     padding: 0.5em;
     border: solid 2px;
 }
+
+.iti__flag {background-image: url("path/to/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("path/to/flags@2x.png");}
+}
